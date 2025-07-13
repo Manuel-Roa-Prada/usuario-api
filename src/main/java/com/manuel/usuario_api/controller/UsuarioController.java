@@ -9,7 +9,10 @@ import jakarta.validation.Valid;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {
+    "http://localhost:4200",
+    "https://usuario-frontend.onrender.com"
+})
 @RestController // Indica que esta clase expone rutas HTTP (API REST)
 @RequestMapping("/api/usuarios")  // Todas las rutas empezarán por /api/usuarios
 public class UsuarioController {
