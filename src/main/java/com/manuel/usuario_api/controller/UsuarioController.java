@@ -11,7 +11,7 @@ import java.util.List;
 
 @CrossOrigin(origins = {
     "http://localhost:4200",
-    "https://usuario-frontend.onrender.com"
+    "https://usuario-frontend.1.onrender.com"
 })
 @RestController // Indica que esta clase expone rutas HTTP (API REST)
 @RequestMapping("/api/usuarios")  // Todas las rutas empezarán por /api/usuarios
